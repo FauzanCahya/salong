@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>                        
-        <title>Boooya - Revolution Admin Template</title>            
+        <title><?=$title;?></title>            
         
         <!-- META SECTION -->
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="<?=base_url();?>assets/salon-512.png" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <!-- END META SECTION -->
         <!-- CSS INCLUDE -->        
@@ -31,7 +31,7 @@
                     <nav>
                         <ul>
                             <li class="title">MENU UTAMA</li>
-                            <li><a href="index.html"><span class="icon-home text-bloody-100"></span> Dashboard</a></li>
+                            <li><a href="<?=base_url();?>dashboard_c"><span class="icon-home text-bloody-100"></span> Dashboard</a></li>
                             <li><a href="<?=base_url();?>quick_sale_c"><span class="icon-cart text-orange-100"></span> Quick Sale </a></li>                
                             <li><a href="<?=base_url();?>appointment_c"><span class="icon-pushpin text-yellow-100"></span> Appointment</a></li>
                                           
