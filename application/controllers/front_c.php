@@ -19,6 +19,22 @@ class Front_c extends CI_Controller {
 	 */
 	public function index()
 	{
+		// Sample php code for commentThreads.list
+
+		// function commentThreadsListByVideoId($service, $part, $params) {
+		//     $params = array_filter($params);
+		//     $response = $service->commentThreads->listCommentThreads(
+		//         $part,
+		//         $params
+		//     );
+
+		//     print_r($response);
+		// }
+
+		// commentThreadsListByVideoId($service,
+		//     'snippet,replies', 
+		//     array('videoId' => '6nV1wJRLbqs'));
+
 		$data = array(
 			'page' => 'front_v', 
 			'master' => '', 
@@ -28,6 +44,12 @@ class Front_c extends CI_Controller {
 
 		$this->load->view('dashboard_v', $data);
 	}
+
+	
+
+
+
+
 }
 
 /* End of file welcome.php */

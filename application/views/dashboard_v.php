@@ -384,6 +384,7 @@
         
         <script type="text/javascript" src="<?=base_url();?>assets/js/vendor/rickshaw/d3.v3.js"></script>
         <script type="text/javascript" src="<?=base_url();?>assets/js/vendor/rickshaw/rickshaw.min.js"></script>
+        
         <!-- END THIS PAGE SCRIPTS -->
         <!-- APP SCRIPTS -->
         <script type="text/javascript" src="<?=base_url();?>assets/js/js-form.js"></script>

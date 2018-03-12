@@ -48,15 +48,15 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-// $db['default']['hostname'] = 'localhost';
-// $db['default']['username'] = 'root';
-// $db['default']['password'] = '';
-// $db['default']['database'] = 'salon_admin';
-
-$db['default']['hostname'] = '118.98.64.43';
-$db['default']['username'] = 'fauzan';
-$db['default']['password'] = 'kalenderhokben';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
 $db['default']['database'] = 'salon_admin';
+
+// $db['default']['hostname'] = '118.98.64.43';
+// $db['default']['username'] = 'fauzan';
+// $db['default']['password'] = 'kalenderhokben';
+// $db['default']['database'] = 'salon_admin';
 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
